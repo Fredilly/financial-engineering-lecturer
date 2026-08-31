@@ -16,18 +16,33 @@ title: "Download CV — Fred Egbuedike"
 <div class="card" id="cv-content">
   <div style="text-align: center; margin-bottom: 24px; padding-bottom: 16px; border-bottom: 2px solid var(--primary);">
     <h1 style="color: var(--primary); font-size: 1.8rem; margin-bottom: 4px;">Fred Egbuedike</h1>
-    <p style="color: var(--text-light); font-size: 0.95rem;">Financial Engineering Guest Lecturer — Statistical Inference in Finance</p>
+    <p style="color: var(--text-light); font-size: 0.95rem;">University Lecturer & Quantitative Technical Trainer</p>
+    <p style="color: var(--accent); font-size: 0.9rem; margin-top: 4px; font-weight: 600;">Candidate for Financial Engineering Guest Lecturer | Statistical Inference in Finance</p>
     <p style="color: var(--text-light); font-size: 0.85rem; margin-top: 8px;">
       📧 fred.egbuedike@email.com &nbsp;|&nbsp; 📱 +86 138 0000 0000 &nbsp;|&nbsp; 📍 Chengdu, China
     </p>
   </div>
 
-  <h3 style="color: var(--primary); margin-bottom: 12px;">Professional Summary</h3>
+  <h3 style="color: var(--primary); margin-bottom: 12px;">Professional Profile</h3>
   <p style="margin-bottom: 16px; line-height: 1.6;">
-    Quantitative educator and technical trainer with 8+ years of university-level teaching and corporate training experience. M.Sc. in Information Security from Southwest Jiaotong University with strong computational and quantitative foundations. Proven track record delivering English-medium instruction to Chinese professionals and researchers at Fortune Global 500 companies and national research institutions. Experienced speaker at international blockchain and fintech conferences (2019–2021). Prepared to deliver a rigorous 64-hour <strong>Statistical Inference in Finance</strong> course combining mathematical theory with practical financial applications.
+    Quantitative educator and technical trainer with 8+ years of university-level teaching and corporate training experience. M.Sc. in Information Security from Southwest Jiaotong University with strong computational and quantitative foundations. Proven track record delivering English-medium instruction to Chinese professionals and researchers at Fortune Global 500 companies (Midea, Hisense) and national research institutions (CAS). Experienced speaker at international blockchain and fintech conferences (2019–2021). Prepared to deliver a rigorous 64-hour <strong>Statistical Inference in Finance</strong> course combining mathematical theory with practical financial applications.
   </p>
 
-  <h3 style="color: var(--primary); margin-bottom: 12px;">Teaching Experience</h3>
+  <h3 style="color: var(--primary); margin-bottom: 12px;">Relevant Teaching & Technical Experience</h3>
+
+  <div style="margin-bottom: 16px; padding-left: 16px; border-left: 3px solid var(--primary);">
+    <div style="display: flex; justify-content: space-between; align-items: baseline;">
+      <div>
+        <strong>Blockchain & Fintech Conference Speaker</strong><br>
+        <span style="color: var(--primary); font-weight: 600;">International Conferences</span>
+      </div>
+      <span style="color: var(--text-light); font-size: 0.85rem;">2019–2021</span>
+    </div>
+    <ul style="margin: 4px 0 0 20px; font-size: 0.9rem; color: var(--text-light);">
+      <li>Delivered presentations on blockchain technology and financial applications at multiple international conferences</li>
+      <li>Bridged technical and financial domains for diverse professional audiences</li>
+    </ul>
+  </div>
 
   <div style="margin-bottom: 16px; padding-left: 16px; border-left: 3px solid var(--primary);">
     <div style="display: flex; justify-content: space-between; align-items: baseline;">
@@ -84,6 +99,7 @@ title: "Download CV — Fred Egbuedike"
     </ul>
   </div>
 
+  <h3 style="color: var(--primary); margin-bottom: 12px;">Additional Teaching Experience</h3>
   <div style="margin-bottom: 16px; padding-left: 16px; border-left: 3px solid var(--primary);">
     <div style="display: flex; justify-content: space-between; align-items: baseline;">
       <div>
@@ -95,21 +111,6 @@ title: "Download CV — Fred Egbuedike"
     <ul style="margin: 4px 0 0 20px; font-size: 0.9rem; color: var(--text-light);">
       <li>4 years full-time English instruction to diverse learner populations</li>
       <li>Developed curriculum, lesson plans, and assessment materials</li>
-    </ul>
-  </div>
-
-  <h3 style="color: var(--primary); margin-bottom: 12px;">Conference Speaking</h3>
-  <div style="margin-bottom: 16px; padding-left: 16px; border-left: 3px solid var(--primary);">
-    <div style="display: flex; justify-content: space-between; align-items: baseline;">
-      <div>
-        <strong>Blockchain & Fintech Conference Speaker</strong><br>
-        <span style="color: var(--primary); font-weight: 600;">International Conferences</span>
-      </div>
-      <span style="color: var(--text-light); font-size: 0.85rem;">2019–2021</span>
-    </div>
-    <ul style="margin: 4px 0 0 20px; font-size: 0.9rem; color: var(--text-light);">
-      <li>Delivered presentations on blockchain technology and financial applications</li>
-      <li>Bridged technical and financial domains for diverse professional audiences</li>
     </ul>
   </div>
 
@@ -133,12 +134,17 @@ title: "Download CV — Fred Egbuedike"
     </div>
   </div>
 
-  <h3 style="color: var(--primary); margin-bottom: 12px;">Certifications & Skills</h3>
+  <h3 style="color: var(--primary); margin-bottom: 12px;">Technical Skills</h3>
   <p style="margin-bottom: 16px; line-height: 1.6;">
-    <strong>TEFL Certified (2019)</strong> · Native English Speaker · Conversational Chinese · Python & Data Analysis · Quantitative Methods · Curriculum Design · Classroom Management · Interactive Teaching
+    Python (SciPy, Statsmodels, Pandas) · Jupyter Notebooks · Data Analysis · Quantitative Methods · Curriculum Design · Classroom Management · Interactive Teaching
   </p>
 
-  <h3 style="color: var(--primary); margin-bottom: 12px;">Course Ready to Teach</h3>
+  <h3 style="color: var(--primary); margin-bottom: 12px;">Certifications</h3>
+  <p style="margin-bottom: 16px; line-height: 1.6;">
+    <strong>TEFL Certified (2019)</strong> · Native English Speaker · Conversational Chinese
+  </p>
+
+  <h3 style="color: var(--primary); margin-bottom: 12px;">Proposed Course</h3>
   <p style="margin-bottom: 16px; line-height: 1.6;">
     <strong>Statistical Inference in Finance</strong> — 64 teaching hours, 4-week intensive covering probability foundations, estimation theory, hypothesis testing, and regression analysis with financial applications. Full syllabus, materials, and assessments prepared.
   </p>
