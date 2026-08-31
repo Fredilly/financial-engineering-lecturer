@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: site.title }}</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <nav class="site-nav">
+    <div class="nav-container">
+      <a href="{{ '/' | relative_url }}" class="nav-brand">Fred Egbuedike</a>
+      <div class="nav-links">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/experience/' | relative_url }}">Experience</a>
+        <a href="{{ '/course/' | relative_url }}">Course</a>
+        <a href="{{ '/cv/' | relative_url }}">CV</a>
+      </div>
+    </div>
+  </nav>
+  <main class="page-content">
+    {{ content }}
+  </main>
+  <footer class="site-footer">
+    <p>Fred Egbuedike · Financial Engineering Guest Lecturer · Changchun 2026</p>
+  </footer>
+</body>
+</html>
