@@ -8,7 +8,7 @@ title: "Statistical Inference in Finance — Course Outline"
 
 <div class="card">
   <h2>Course Overview</h2>
-  <p>This 4-week intensive course delivers a rigorous foundation in statistical inference with direct applications to financial data analysis, risk modeling, and quantitative finance. Students master probability theory, estimation methods, hypothesis testing, and regression analysis through hands-on work with real financial datasets. The course emphasizes practical implementation in Python/R alongside theoretical understanding — graduates leave capable of applying statistical methods to real financial decision-making.</p>
+  <p>This 4-week intensive course delivers a rigorous foundation in statistical inference with direct applications to financial data analysis and risk modeling. Students master probability theory, estimation methods, hypothesis testing, and regression analysis through hands-on work with real financial datasets. The course emphasizes practical implementation in Python alongside theoretical understanding — graduates leave capable of applying statistical methods to real financial decision-making.</p>
   <div class="course-grid">
     <div class="course-card">
       <h4>📊 Format</h4>
@@ -16,7 +16,7 @@ title: "Statistical Inference in Finance — Course Outline"
     </div>
     <div class="course-card">
       <h4>🛠️ Tools</h4>
-      <p>Python (SciPy, Statsmodels, Pandas) · R · Jupyter Notebooks</p>
+      <p>Python (SciPy, Statsmodels, Pandas) · Jupyter Notebooks</p>
     </div>
     <div class="course-card">
       <h4>📝 Assessment</h4>
@@ -28,14 +28,14 @@ title: "Statistical Inference in Finance — Course Outline"
 <div class="card">
   <h2>4-Week Syllabus</h2>
 
-  <h3 style="margin: 20px 0 12px; color: var(--primary);">Week 1 — Probability Foundations & Distributions</h3>
+  <h3 style="margin: 20px 0 12px; color: var(--primary);">Week 1 — Probability Foundations & Financial Distributions</h3>
   <div class="course-grid">
     <div class="course-card">
       <h4>Topics</h4>
       <ul style="margin-left: 16px; font-size: 0.9rem;">
         <li>Axioms of probability, conditional probability, Bayes' theorem</li>
         <li>Random variables: discrete vs continuous</li>
-        <li>Expectation, variance, moments, moment-generating functions</li>
+        <li>Expectation, variance, moments</li>
         <li>Key distributions: Normal, Binomial, Poisson, Log-normal</li>
         <li>Joint distributions, covariance, correlation</li>
       </ul>
@@ -58,7 +58,7 @@ title: "Statistical Inference in Finance — Course Outline"
     </div>
   </div>
 
-  <h3 style="margin: 20px 0 12px; color: var(--primary);">Week 2 — Estimation Theory</h3>
+  <h3 style="margin: 20px 0 12px; color: var(--primary);">Week 2 — Estimation & Confidence Intervals</h3>
   <div class="course-grid">
     <div class="course-card">
       <h4>Topics</h4>
@@ -75,7 +75,7 @@ title: "Statistical Inference in Finance — Course Outline"
       <ul style="margin-left: 16px; font-size: 0.9rem;">
         <li>Estimating expected returns and volatility</li>
         <li>Confidence intervals for portfolio parameters</li>
-        <li>MLE for GARCH models</li>
+        <li>Bootstrap methods for financial data</li>
       </ul>
     </div>
     <div class="course-card">
@@ -88,7 +88,7 @@ title: "Statistical Inference in Finance — Course Outline"
     </div>
   </div>
 
-  <h3 style="margin: 20px 0 12px; color: var(--primary);">Week 3 — Hypothesis Testing</h3>
+  <h3 style="margin: 20px 0 12px; color: var(--primary);">Week 3 — Hypothesis Testing & Financial Applications</h3>
   <div class="course-grid">
     <div class="course-card">
       <h4>Topics</h4>
@@ -113,12 +113,12 @@ title: "Statistical Inference in Finance — Course Outline"
       <ul style="margin-left: 16px; font-size: 0.9rem;">
         <li>Event study: earnings announcements impact</li>
         <li>Backtesting trading strategies with hypothesis tests</li>
-        <li>Multiple testing corrections on factor models</li>
+        <li>Multiple testing corrections</li>
       </ul>
     </div>
   </div>
 
-  <h3 style="margin: 20px 0 12px; color: var(--primary);">Week 4 — Regression & Applications</h3>
+  <h3 style="margin: 20px 0 12px; color: var(--primary);">Week 4 — Regression, CAPM & Introductory Time-Series Inference</h3>
   <div class="course-grid">
     <div class="course-card">
       <h4>Topics</h4>
@@ -127,13 +127,13 @@ title: "Statistical Inference in Finance — Course Outline"
         <li>OLS estimation and assumptions</li>
         <li>Hypothesis testing in regression (t, F, R²)</li>
         <li>Multicollinearity, heteroskedasticity</li>
-        <li>Introduction to time series: AR, MA, ARMA</li>
+        <li>Introduction to time-series inference</li>
       </ul>
     </div>
     <div class="course-card">
       <h4>Financial Application</h4>
       <ul style="margin-left: 16px; font-size: 0.9rem;">
-        <li>CAPM and multi-factor models (Fama-French)</li>
+        <li>CAPM and multi-factor models</li>
         <li>Predicting returns with regression</li>
         <li>Volatility forecasting</li>
       </ul>
@@ -141,12 +141,15 @@ title: "Statistical Inference in Finance — Course Outline"
     <div class="course-card">
       <h4>Lab & Final Project</h4>
       <ul style="margin-left: 16px; font-size: 0.9rem;">
-        <li>Estimate Fama-French 3-factor model on Chinese stock data</li>
+        <li>Estimate CAPM on Chinese stock data</li>
         <li>Final project: independent analysis of financial dataset</li>
         <li>Present findings with statistical justification</li>
       </ul>
     </div>
   </div>
+
+  <h3 style="margin: 20px 0 12px; color: var(--primary);">Optional Advanced Applications</h3>
+  <p style="margin-bottom: 16px; color: var(--text-light);">Depending on student background and pace, selected topics may include: GARCH models, Fama-French 3-factor model, ARMA time series. These are supplementary and not part of the core 64-hour requirement.</p>
 </div>
 
 <div class="card">
