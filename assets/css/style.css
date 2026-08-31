@@ -163,6 +163,28 @@ body {
 }
 .align-table tr:nth-child(even) { background: var(--highlight-bg); }
 
+/* Tags for match level */
+.tag {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.tag-direct {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+.tag-relevant {
+  background: #fff3e0;
+  color: #e65100;
+}
+.tag-additional {
+  background: #f3e5f5;
+  color: #7b1fa2;
+}
+
 /* Timeline */
 .timeline-item {
   padding-left: 24px;
