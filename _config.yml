@@ -1,0 +1,20 @@
+# Jekyll config for Financial Engineering Lecturer Portfolio
+title: "Fred Egbuedike — Financial Engineering Lecturer"
+description: "Portfolio targeting Statistical Inference in Finance — Guest Lecturer position, Changchun"
+baseurl: "/financial-engineering-lecturer"
+url: "https://fredilly.github.io"
+github_username: fredilly
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .gitignore
