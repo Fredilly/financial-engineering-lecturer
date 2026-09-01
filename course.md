@@ -1,182 +1,70 @@
 ---
 layout: default
-title: "Statistical Inference in Finance — Course Outline"
+title: "Statistical Inference in Finance - Course Outline"
 ---
 
-<h1 style="margin-bottom: 24px; color: var(--primary);">Statistical Inference in Finance</h1>
-<p style="font-size: 1.1rem; color: var(--text-light); margin-bottom: 24px;">2023 Cohort · 64 Teaching Hours · Sept 28 – Oct 23 · Changchun</p>
+<h1 style="margin-bottom: 8px; color: var(--primary);">Statistical Inference in Finance</h1>
+<p style="font-size: 1.05rem; color: var(--text-light); margin-bottom: 24px;">2026 Cohort · 64 Teaching Hours · Sept 28 - Oct 23 · Changchun</p>
 
 <div class="card">
-  <h2>Course Overview</h2>
-  <p>This 4-week intensive course delivers a rigorous foundation in statistical inference with direct applications to financial data analysis and risk modeling. Students master probability theory, estimation methods, hypothesis testing, and regression analysis through hands-on work with real financial datasets. The course emphasizes practical implementation in Python alongside theoretical understanding — graduates leave capable of applying statistical methods to real financial decision-making.</p>
+  <h2>Course at a Glance</h2>
   <div class="course-grid">
-    <div class="course-card">
-      <h4>📊 Format</h4>
-      <p>Onsite instruction · 20–24 teaching hours/week · 1 teaching hour = 45 min</p>
-    </div>
-    <div class="course-card">
-      <h4>🛠️ Tools</h4>
-      <p>Python (SciPy, Statsmodels, Pandas) · Jupyter Notebooks</p>
-    </div>
-    <div class="course-card">
-      <h4>📝 Assessment</h4>
-      <p>Weekly problem sets · Midterm exam · Final project with financial dataset</p>
-    </div>
+    <div class="course-card"><h4>Format</h4><p><strong>64 teaching hours</strong><br>16 hours/week × 4 weeks<br>Onsite in Changchun</p></div>
+    <div class="course-card"><h4>Core Methods</h4><p>Probability · Estimation · Confidence intervals · Hypothesis testing · Regression</p></div>
+    <div class="course-card"><h4>Practical Tools</h4><p>Python · SciPy · Statsmodels · Pandas · Jupyter Notebooks</p></div>
   </div>
+</div>
+
+<div class="card">
+  <h2>Learning Outcomes</h2>
+  <p>By the end of the course, students will be able to:</p>
+  <ul style="margin-left: 20px;">
+    <li>Model uncertainty in financial data using probability distributions.</li>
+    <li>Estimate financial parameters and quantify uncertainty with confidence intervals and bootstrap methods.</li>
+    <li>Design and interpret hypothesis tests for returns, portfolios and event-study questions.</li>
+    <li>Build and evaluate regression models for CAPM, factor analysis and introductory time-series inference.</li>
+  </ul>
 </div>
 
 <div class="card">
   <h2>4-Week Syllabus</h2>
+  <h3>Week 1 - Probability Foundations & Financial Distributions</h3>
+  <p><strong>Topics:</strong> probability axioms, conditional probability, Bayes' theorem, random variables, expectation, variance, covariance and core distributions.</p>
+  <p><strong>Financial application:</strong> asset-return distributions, fat tails and non-normality.</p>
+  <p><strong>Lab:</strong> fit and compare distributions to market returns; test normality assumptions.</p>
 
-  <h3 style="margin: 20px 0 12px; color: var(--primary);">Week 1 — Probability Foundations & Financial Distributions</h3>
-  <div class="course-grid">
-    <div class="course-card">
-      <h4>Topics</h4>
-      <ul style="margin-left: 16px; font-size: 0.9rem;">
-        <li>Axioms of probability, conditional probability, Bayes' theorem</li>
-        <li>Random variables: discrete vs continuous</li>
-        <li>Expectation, variance, moments</li>
-        <li>Key distributions: Normal, Binomial, Poisson, Log-normal</li>
-        <li>Joint distributions, covariance, correlation</li>
-      </ul>
-    </div>
-    <div class="course-card">
-      <h4>Financial Application</h4>
-      <ul style="margin-left: 16px; font-size: 0.9rem;">
-        <li>Modeling asset returns with distributions</li>
-        <li>Fat tails and non-normality in financial data</li>
-        <li>Historical vs implied distributions</li>
-      </ul>
-    </div>
-    <div class="course-card">
-      <h4>Lab</h4>
-      <ul style="margin-left: 16px; font-size: 0.9rem;">
-        <li>Fit distributions to S&P 500 returns</li>
-        <li>Visualize and test normality assumptions</li>
-        <li>Compare historical vs normal quantiles</li>
-      </ul>
-    </div>
-  </div>
+  <h3>Week 2 - Estimation & Confidence Intervals</h3>
+  <p><strong>Topics:</strong> sampling distributions, CLT, point estimation, maximum likelihood, estimator properties, confidence intervals.</p>
+  <p><strong>Financial application:</strong> estimating expected returns, volatility and portfolio parameters.</p>
+  <p><strong>Lab:</strong> MLE, bootstrap confidence intervals and simulation of sampling distributions.</p>
 
-  <h3 style="margin: 20px 0 12px; color: var(--primary);">Week 2 — Estimation & Confidence Intervals</h3>
-  <div class="course-grid">
-    <div class="course-card">
-      <h4>Topics</h4>
-      <ul style="margin-left: 16px; font-size: 0.9rem;">
-        <li>Sampling distributions and Central Limit Theorem</li>
-        <li>Point estimation: method of moments, maximum likelihood</li>
-        <li>Properties: unbiasedness, consistency, efficiency</li>
-        <li>Interval estimation: confidence intervals</li>
-        <li>Fisher information and Cramér-Rao bound</li>
-      </ul>
-    </div>
-    <div class="course-card">
-      <h4>Financial Application</h4>
-      <ul style="margin-left: 16px; font-size: 0.9rem;">
-        <li>Estimating expected returns and volatility</li>
-        <li>Confidence intervals for portfolio parameters</li>
-        <li>Bootstrap methods for financial data</li>
-      </ul>
-    </div>
-    <div class="course-card">
-      <h4>Lab</h4>
-      <ul style="margin-left: 16px; font-size: 0.9rem;">
-        <li>MLE estimation for stock return parameters</li>
-        <li>Bootstrap confidence intervals</li>
-        <li>Simulation: sampling distribution of estimators</li>
-      </ul>
-    </div>
-  </div>
+  <h3>Week 3 - Hypothesis Testing & Financial Applications</h3>
+  <p><strong>Topics:</strong> null/alternative hypotheses, p-values, Type I/II errors, power, t-tests, z-tests, F-tests, chi-squared tests and multiple testing.</p>
+  <p><strong>Financial application:</strong> testing average stock returns, comparing portfolio performance and event-study reasoning.</p>
+  <p><strong>Lab:</strong> interactive stock-return hypothesis test and event-study exercise.</p>
 
-  <h3 style="margin: 20px 0 12px; color: var(--primary);">Week 3 — Hypothesis Testing & Financial Applications</h3>
-  <div class="course-grid">
-    <div class="course-card">
-      <h4>Topics</h4>
-      <ul style="margin-left: 16px; font-size: 0.9rem;">
-        <li>Null/alternative hypotheses, test statistics, p-values</li>
-        <li>Type I/II errors, power of tests</li>
-        <li>t-tests, z-tests, F-tests, chi-squared tests</li>
-        <li>Likelihood ratio tests</li>
-        <li>Multiple testing and family-wise error</li>
-      </ul>
-    </div>
-    <div class="course-card">
-      <h4>Financial Application</h4>
-      <ul style="margin-left: 16px; font-size: 0.9rem;">
-        <li>Testing mean reversion in stock prices</li>
-        <li>Comparing portfolio performance (paired tests)</li>
-        <li>Event study methodology</li>
-      </ul>
-    </div>
-    <div class="course-card">
-      <h4>Lab</h4>
-      <ul style="margin-left: 16px; font-size: 0.9rem;">
-        <li>Event study: earnings announcements impact</li>
-        <li>Backtesting trading strategies with hypothesis tests</li>
-        <li>Multiple testing corrections</li>
-      </ul>
-    </div>
-  </div>
+  <h3>Week 4 - Regression, CAPM & Introductory Time-Series Inference</h3>
+  <p><strong>Topics:</strong> simple/multiple regression, OLS, inference in regression, heteroskedasticity and introductory time-series inference.</p>
+  <p><strong>Financial application:</strong> CAPM, multi-factor models, return prediction and volatility forecasting.</p>
+  <p><strong>Lab & final project:</strong> estimate CAPM on Chinese stock data and present an independent analysis with statistical justification.</p>
 
-  <h3 style="margin: 20px 0 12px; color: var(--primary);">Week 4 — Regression, CAPM & Introductory Time-Series Inference</h3>
-  <div class="course-grid">
-    <div class="course-card">
-      <h4>Topics</h4>
-      <ul style="margin-left: 16px; font-size: 0.9rem;">
-        <li>Simple and multiple linear regression</li>
-        <li>OLS estimation and assumptions</li>
-        <li>Hypothesis testing in regression (t, F, R²)</li>
-        <li>Multicollinearity, heteroskedasticity</li>
-        <li>Introduction to time-series inference</li>
-      </ul>
-    </div>
-    <div class="course-card">
-      <h4>Financial Application</h4>
-      <ul style="margin-left: 16px; font-size: 0.9rem;">
-        <li>CAPM and multi-factor models</li>
-        <li>Predicting returns with regression</li>
-        <li>Volatility forecasting</li>
-      </ul>
-    </div>
-    <div class="course-card">
-      <h4>Lab & Final Project</h4>
-      <ul style="margin-left: 16px; font-size: 0.9rem;">
-        <li>Estimate CAPM on Chinese stock data</li>
-        <li>Final project: independent analysis of financial dataset</li>
-        <li>Present findings with statistical justification</li>
-      </ul>
-    </div>
-  </div>
-
-  <h3 style="margin: 20px 0 12px; color: var(--primary);">Optional Advanced Applications</h3>
-  <p style="margin-bottom: 16px; color: var(--text-light);">Depending on student background and pace, selected topics may include: GARCH models, Fama-French 3-factor model, ARMA time series. These are supplementary and not part of the core 64-hour requirement.</p>
+  <h3>Optional Advanced Applications</h3>
+  <p>Depending on student background and pace: GARCH models, Fama-French 3-factor model and ARMA time series. These are supplementary and not part of the core 64-hour requirement.</p>
 </div>
 
 <div class="card">
-  <h2>Assessment Breakdown</h2>
-  <div style="display: flex; gap: 16px; flex-wrap: wrap; margin-top: 12px;">
-    <div style="flex: 1; min-width: 120px; background: #e3f2fd; padding: 16px; border-radius: 8px; text-align: center;">
-      <strong style="font-size: 1.2rem; color: var(--primary);">30%</strong><br><span style="font-size: 0.85rem;">Weekly Problem Sets</span>
-    </div>
-    <div style="flex: 1; min-width: 120px; background: #e8f5e9; padding: 16px; border-radius: 8px; text-align: center;">
-      <strong style="font-size: 1.2rem; color: #2e7d32;">20%</strong><br><span style="font-size: 0.85rem;">Midterm Exam</span>
-    </div>
-    <div style="flex: 1; min-width: 120px; background: #fff3e0; padding: 16px; border-radius: 8px; text-align: center;">
-      <strong style="font-size: 1.2rem; color: #e65100;">40%</strong><br><span style="font-size: 0.85rem;">Final Project</span>
-    </div>
-    <div style="flex: 1; min-width: 120px; background: #f3e5f5; padding: 16px; border-radius: 8px; text-align: center;">
-      <strong style="font-size: 1.2rem; color: #7b1fa2;">10%</strong><br><span style="font-size: 0.85rem;">Participation</span>
-    </div>
-  </div>
+  <h2>Assessment</h2>
+  <p><strong>30%</strong> Weekly problem sets · <strong>20%</strong> Midterm · <strong>40%</strong> Final project · <strong>10%</strong> Participation</p>
 </div>
 
 <div class="card">
-  <h2>Materials Provided by Instructor</h2>
+  <h2>Instructor-Prepared Materials</h2>
   <ul style="margin-left: 20px;">
-    <li>Full PowerPoint lecture slides for all 64 hours</li>
-    <li>Jupyter Notebook-based lab exercises with real financial data</li>
+    <li>Lecture slides for all 64 teaching hours</li>
+    <li>Jupyter Notebook labs with financial datasets</li>
     <li>Weekly problem sets with solutions</li>
-    <li>Midterm and final exam materials</li>
-    <li>Recommended textbooks and supplementary readings</li>
+    <li>Midterm and final assessment materials</li>
+    <li>Recommended readings and supplementary resources</li>
   </ul>
+  <p style="margin-top: 16px;"><a href="{{ '/assets/sample-lecture.pdf' | relative_url }}" class="btn btn-primary">View Sample Lecture</a></p>
 </div>
