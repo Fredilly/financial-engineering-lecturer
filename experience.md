@@ -135,10 +135,20 @@ title: "Teaching & Professional Experience — Fred Egbuedike"
   <div class="timeline-item">
     <div class="timeline-header">
       <div>
-        <div class="timeline-title">B.Sc. — Computer Science</div>
-        <div class="timeline-company">University of Nigeria</div>
+        <div class="timeline-title">B.Sc. — Electrical Engineering</div>
+        <div class="timeline-company">UET Taxila, Pakistan</div>
       </div>
       <div class="timeline-dates">2010</div>
+    </div>
+  </div>
+
+  <div class="timeline-item" style="background: #e3f2fd; padding: 12px; border-radius: 6px; margin-top: 8px; border-left: 3px solid var(--primary);">
+    <div class="timeline-header">
+      <div>
+        <div class="timeline-title">ITIL v3 Foundation</div>
+        <div class="timeline-company">EXIN — Enterprise IT Service Management</div>
+      </div>
+      <div class="timeline-dates">2012</div>
     </div>
   </div>
 </div>
