@@ -40,7 +40,8 @@ title: "CV - Fred Egbuedike"
 <div class="card">
   <h2>Education & Skills</h2>
   <p><strong>M.Sc. - Information Security</strong>, Southwest Jiaotong University · 2013</p>
-  <p><strong>B.Sc. - Computer Science</strong>, University of Nigeria · 2010</p>
+  <p><strong>B.Sc. - Electrical Engineering</strong>, UET Taxila, Pakistan · 2010</p>
+  <p><strong>ITIL v3 Foundation</strong>, EXIN — Enterprise IT Service Management · 2012</p>
   <p>Python (SciPy, Statsmodels, Pandas) · Jupyter Notebooks · Data Analysis · Quantitative Methods · Curriculum Design · Classroom Management</p>
   <p>TEFL Certified (2019) · Native English Speaker · Conversational Chinese</p>
 </div>
